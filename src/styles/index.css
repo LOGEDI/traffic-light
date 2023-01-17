@@ -10,17 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+   flex-direction: column;
+}
+   
+.tlTop{
+    background: black;
+    width: 20px;
+    margin: auto;
+    height: 50px;
+
+}
+
 .trafic-light {
     background-color: black;
     padding: 10px;
     margin:auto;
     display: inline-block;
+    border-radius: 15px;
 }
 .light {
-    background-color: blue;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    margin: 15px;
+    background-color: aliceblue;
 }
 
 .red {
@@ -32,7 +50,6 @@
 .green{
     background-color:green;
 }
-
 .glow {
-    box-shadow: 0px 0px 9px 4px #747DE8;
+    box-shadow: 0px 0px 39px 12px #ffffff;
 }
